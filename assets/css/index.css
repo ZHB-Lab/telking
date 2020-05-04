@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #F5F8F9;
+}
+
+.container .title {
+    background-color: #ffffff;
+}
+
+.container .title .right-icon {
+    font-size: 28px;
+    margin: 0 10px;
+}
+
+.container .title {
+    padding: 30px 105px;
+}
+
+.container .title .logout {
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+.container .logo,
+.logout {
+    background-color: #f92525;
+    padding: 5px 20px;
+    width: 105px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.container .content {
+    padding: 50px 105px;
+}
+
+.container .content .headline {
+    font-size: 30px;
+}
+
+.container .content .subtitle {
+    font-size: 15px;
+    color: rgba(38, 43, 46, 0.7);
+    margin-top: 5px;
+}
+
+.container .content .tabs {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.container .content .carousel,
+.requests {
+    margin-top: 49px;
+    background-color: #ffffff;
+    width: 40.2vw;
+}
+
+.container .content .carousel {
+    padding: 10px;
+}
+
+.container .content .requests table {
+    padding: 19px 49px;
+}
+
+.container .content .requests table th {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.container .content .requests table td {
+    padding: 10px 0;
+}
+
+.container .content .requests table td button {
+    padding: 10px 12px;
+    background-color: #5dd054;
+    border-radius: 2px;
+    color: #ffffff;
+    border: none;
+}
+
+.container .content .requests .req-title {
+    height: 99px;
+    border-bottom: 1px solid #eeeeee;
+    padding: 0 50px;
+}
+
+.container .content .requests .req-title .text {
+    font-size: 18px;
+}
+
+.container .content .requests .req-title button {
+    padding: 10px 17px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.container .content .tabs li {
+    padding: 5px 0 5px 30px;
+}
+
+.container .content .tabs li.active hr {
+    background: rgba(38, 43, 46, 0.2);
+    display: block;
+}
+
+.container .content .tabs li hr {
+    margin-top: 5px;
+    height: 2px;
+    border: none;
+    display: none;
+}
+
+.banner-container {
+    height: 267px;
+    width: 539px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner img {
+    height: 267px;
+    width: 539px;
+}
+
+.banner li {
+    display: none;
+}
+
+.banner li.active {
+    display: block;
+}
+
+.carousel {
+    position: relative;
+    cursor: pointer;
+}
+
+.indexes {
+    height: 15px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.indexes li {
+    margin: 0 5px;
+    min-width: 10px;
+    height: 10px;
+    background: #aaaaaa;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.indexes li.active {
+    background: #ffffff;
+}
+
+.arrow-left,
+.arrow-right {
+    width: 25px;
+    height: 40px;
+    background: rgba(38, 43, 46, 0.5);
+    position: absolute;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 5px;
+}
+
+.arrow-right {
+    right: 5px;
+}
+
+.graph,
+.pie,
+.bar {
+    background-color: #ffffff;
+    padding: 33px 36px;
+}
+
+.graph {
+    margin: 19px 0;
+}
+
+#graph {
+    width: 1065px;
+    height:350px;
+}
+#pie {
+    width: 35.5vw;
+    height:307px;
+}
+#bar {
+    width: 35.5vw;
+    height:307px;
+}
+
+.container .footer {
+    background-color: #202124;
+    padding: 80px 105px;
+}
+.container .footer .logo {
+    margin-right: 77px;
+}
+.container .footer .footer-content {
+    flex: 1;
+    font-size: 13px;
+}
+.container .footer .footer-content .item div {
+    margin-bottom: 15px;
+}
+.container .footer .footer-content .item div a {
+    text-decoration:none;
+    color: #ffffff;
+}

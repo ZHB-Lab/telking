@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1588577491418'); /* IE9 */
+  src: url('iconfont.eot?t=1588577491418#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPAAAsAAAAACDQAAANyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDKgqDWIMRATYCJAMUCwwABCAFhG0HShsXBxEVnK3IfizYthBePxArapKeCQL+vWxe1DRbKNsjUEkn68ugSZt2DVlhoipZsnb66R+4PA87n64ECJA7uKb+omyAebS3qQ0wqqjLowFHAx5QN1aIbyAT9C3Dq13qxk7thwAMKlAP0a1HPx90FNgwAYiUxPhI9JwepSVboCPQauYqiKmo6NI46QwwJfy+eE0ToYOEKsPGesR1j6HTM569lof+H0qIjyCYzgqIi0AG6gEKiKRaewxyHKqHjKEnKrQCdLuTBM/Es93PXv//D0SERwnpGBj0D09CRgGhwTLtAOgEYQWe4QICnqGQ4NluFDI8ey38KIeoABiABowFtgGhmlxc+CUkTetmX82mOMlIjLGkWuKSjYRirznDrN5zFlj9Zq9281ldI/CvN4zxaxPyymqSlXT9mfNMz5lDTY+Zc03fWavc/VdV9x26zmKZsIH619T0nbWGXnPO/Ihj16qsuN7z6NXKS690K55grt5cRly75ifm7xu/B65c8WHoxmpzLDPXDkIcxw1bH7H9ckVj0cWWzgWPbO478Y8e32da8n3g5+JodrHBhnLsLRuOl6S2jCg5ft3DNWyCOdCxm1O6UzdH02N8uIfb9eMlLSNSS45jKOGDuHALH2/1cKIOahneLqRKRq/eVvdevTIjXY27NV07gyZcN1bV7W6zWUTkTgg1NZ0mlNaiyXkTROSmUr5lZxkffCv7OvVx8n/T7OrUONvDtnEUAPB/ppwlDw3ZQI6Wfjl7yvb/tB8FXW5MD3ds91W3PE/TratPL4Pr/0yFYfwfI0AL/qAAWaUYImZQFS3X5WtOFc8JnBL8MNGfi4EL96ZRmuhMEOiYKUjYUB5kdKphFEI9ULHQDDR0OoJBXXoutuBKFjJCsQXqMIqAwIktIOHAfpBx4ixGIdwFFStvQcNJ0xQ2Xu3W3NrnNkeBUeSU/sllXcuOSTdR9g32XRvJikLaC+Kdl+IgKkavaCFTTPAfm6gysXQNXchhqOuOeulKZBoUqv0hDLnuTkHWNaONIwGGghxJ/REn02mx31htSp+/AeutZkhLXp3zBYTnWiexQITAXOUtKu9WjvE+rIRSjDDRaZALsUJthzqkr+9VgowKFAMCvYMQ6jFWHiyvbF4gTyyC3U5NErJQhCo05jtb6KwG69JD1bV22cB7YzEaAQAA') format('woff2'),
+  url('iconfont.woff?t=1588577491418') format('woff'),
+  url('iconfont.ttf?t=1588577491418') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1588577491418#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-right:before {
+  content: "\e600";
+}
+
+.icon-left:before {
+  content: "\e601";
+}
+
+.icon-setting:before {
+  content: "\e6bb";
+}
+
+.icon-message:before {
+  content: "\e6eb";
+}
+

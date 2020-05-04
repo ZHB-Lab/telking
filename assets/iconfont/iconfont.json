@@ -1,0 +1,37 @@
+{
+  "id": "1796508",
+  "name": "telking",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5157",
+      "name": "切换器右",
+      "font_class": "right",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5158",
+      "name": "切换器左",
+      "font_class": "left",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3402483",
+      "name": "设置",
+      "font_class": "setting",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "3405405",
+      "name": "消息",
+      "font_class": "message",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    }
+  ]
+}
